@@ -1,5 +1,9 @@
-import bro from './bro';
-
+import React from 'react';
+import ReactDOM from 'react-dom';
 import './styles/main.scss';
+import App from './App';
 
-document.querySelector('h1').textContent = bro(`hhfhf`);
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
